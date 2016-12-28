@@ -9,6 +9,10 @@ public class Scrabble {
       return 4;
     } else if (letter == "k") {
       return 5;
+    } else if (letter == "j" || letter == "x") {
+      return 8;
+    } else if (letter == "q" || letter == "z") {
+      return 10;
     } else {
       return 1;
     }
