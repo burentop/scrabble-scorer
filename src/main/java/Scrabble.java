@@ -1,17 +1,18 @@
 public class Scrabble {
 
   public Integer getLetterScore(String letter) {
-    if (letter == "d" || letter == "g") {
+    letter = letter.toLowerCase();
+    if (letter.equals("d") || letter.equals("g")) {
       return 2;
-    } else if (letter == "b" || letter == "c" || letter == "m" || letter == "p") {
+    } else if (letter.equals("b") || letter.equals("c") || letter.equals("m") || letter.equals("p")) {
       return 3;
-    } else if (letter == "f" || letter == "h" || letter == "v" || letter == "w" || letter == "y") {
+    } else if (letter.equals("f") || letter.equals("h") || letter.equals("v") || letter.equals("w") || letter.equals("y")) {
       return 4;
-    } else if (letter == "k") {
+    } else if (letter.equals("k")) {
       return 5;
-    } else if (letter == "j" || letter == "x") {
+    } else if (letter.equals("j") || letter.equals("x")) {
       return 8;
-    } else if (letter == "q" || letter == "z") {
+    } else if (letter.equals("q") || letter.equals("z")) {
       return 10;
     } else {
       return 1;

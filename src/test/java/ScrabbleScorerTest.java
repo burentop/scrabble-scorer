@@ -51,4 +51,11 @@ public class ScrabbleScorerTest {
     Integer expected = 10;
     assertEquals(expected, testScrabble.calculateScore("q"));
   }
+
+  @Test
+  public void calculateScore_returnLetterScoreRegardlessOfCase_10() {
+    Scrabble testScrabble = new Scrabble();
+    Integer expected = 10;
+    assertEquals(expected, testScrabble.calculateScore("Q"));
+  }
 }
