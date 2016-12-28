@@ -7,6 +7,8 @@ public class Scrabble {
       return 3;
     } else if (letter == "f" || letter == "h" || letter == "v" || letter == "w" || letter == "y") {
       return 4;
+    } else if (letter == "k") {
+      return 5;
     } else {
       return 1;
     }
