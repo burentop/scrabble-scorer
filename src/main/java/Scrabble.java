@@ -20,7 +20,10 @@ public class Scrabble {
   }
 
   public Integer calculateScore(String word) {
-    Integer score = getLetterScore(word);
+    Integer score = 0;
+    for (int i = 0; i < word.length(); i++) {
+      score += getLetterScore(String.valueOf(word.charAt(i)));
+    }
     return score;
   }
 }

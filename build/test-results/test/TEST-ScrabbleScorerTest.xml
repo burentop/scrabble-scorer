@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ScrabbleScorerTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2016-12-28T16:51:23" hostname="Brents-Air.lan" time="0.007">
+<testsuite name="ScrabbleScorerTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2016-12-28T16:59:37" hostname="Brents-Air.lan" time="0.008">
   <properties/>
   <testcase name="calculateScore_returnLetterScoreRegardlessOfCase_10" classname="ScrabbleScorerTest" time="0.003"/>
   <testcase name="calculateScore_returnScoreForSingleLetter_1" classname="ScrabbleScorerTest" time="0.0"/>
+  <testcase name="calculateScore_returnScoreForWord_5" classname="ScrabbleScorerTest" time="0.0"/>
   <testcase name="calculateScore_returnLookedUpScoreForLetter_10" classname="ScrabbleScorerTest" time="0.0"/>
   <testcase name="calculateScore_returnLookedUpScoreForLetter_2" classname="ScrabbleScorerTest" time="0.0"/>
   <testcase name="calculateScore_returnLookedUpScoreForLetter_3" classname="ScrabbleScorerTest" time="0.001"/>
